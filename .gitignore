@@ -47,3 +47,6 @@ build/
 projects/
 docs/*.pptx
 docs/ppt_assets/
+
+# Claude Code local session files
+.claude/
