@@ -1,0 +1,49 @@
+# Blender auto-backup files
+*.blend1
+*.blend@
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temp files
+*~
+*.swp
+*.swo
+
+# Cloudflare Wrangler local cache (may contain auth tokens)
+.wrangler/
+
+# Node modules (if any)
+node_modules/
+
+# ar/ is its own independent git repo (own GitHub remote) — not tracked here
+ar/
+
+# Local archive — recoverable junk/old experiments, kept on disk, never in git
+_archive/
+
+# Generated verification renders (regenerate via the Blender scripts)
+verify/
+
+# Generated 3D-print outputs (regenerate via export_print_*_v2.py)
+print/*.stl
+print/*.obj
+print/*.mtl
+print/*.glb
+print/*.png
+
+# Build output
+dist/
+build/
+
+# PPT generation artifacts (final pptx kept on disk in docs/, not in git)
+projects/
+docs/*.pptx
+docs/ppt_assets/
